@@ -104,13 +104,6 @@ public class PostResource {
 
                 .map(PostResponse::fromEntity)
                 .collect(Collectors.toList());
-//        PanacheQuery<Post>query = repository.find("user",user);
-//        List<Post> list = query.list();
-
-//        Stream<Post> postResponseList = list.stream();
-//               list.stream()
-//                       .map(PostResponse::fromEntity)
-//                       .collect(Collectors.toList());
 
 
 
